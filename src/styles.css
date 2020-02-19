@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404C51;
+  }
+  
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: underline;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .ui-dropdown-filter-container {
+    width: 100%;
+  }
+  
+  @media (min-width: 1200px) {   /*MEDIA QUERIES - QUANDO O TAMANHO DO NAVEGADOR ESTIVER ATÉ NO MÍNIMO 1200 PX APLICA A REGRA, ABAIXO DE 1200 A REGRA DEIXA DE EXISTIR*/
+                                /*SE FOR UMA TELA PEQUENA NÃO APLICA A REGRA*/
+    .container {                /*DELIMITANDO O ESPAÇO PARA EM MONITORES MAIORES NÃO OCUPAR TODO O ESPAÇO, FICANDO GRANDE DE MAIS*/
+      width: 1170px;
+      margin: 0 auto;
+    }
+  }
+  
+  .col-valor {
+    width: 120px;
+    text-align: right;
+  }
+  
+  .col-data {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .col-acoes {
+    width: 90px;
+    text-align: center;
+  }
